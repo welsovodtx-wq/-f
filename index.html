@@ -301,7 +301,7 @@ footer{background:#141619;border-top:1px solid rgba(255,255,255,.06);padding:56p
 <!-- HEADER SECTION -->
 <header>
   <div class="header-inner">
-    <div class="logo" onclick="scrollToId('top')"><b>FR</b> The Fade Room</div>
+    <div class="logo" onclick="scrollToId('top')"><b>FR</b> Урбан студио</div>
     <nav id="desktop-nav">
       <a href="#why">Почему мы</a>
       <a href="#works">Работы</a>
@@ -450,7 +450,7 @@ footer{background:#141619;border-top:1px solid rgba(255,255,255,.06);padding:56p
 <footer id="contacts">
   <div class="footer-inner">
     <div>
-      <div class="logo" style="margin-bottom:12px"><b>FR</b> The Fade Room</div>
+      <div class="logo" style="margin-bottom:12px"><b>FR</b> Урбан студио</div>
       <p>Барбершоп для тех, кто ценит стиль и своё время.</p>
     </div>
     <div>
@@ -470,7 +470,7 @@ footer{background:#141619;border-top:1px solid rgba(255,255,255,.06);padding:56p
     </div>
   </div>
   <div class="copyright">
-    <span>© 2026 The Fade Room</span>
+    <span>© 2026 Урбан студио</span>
     <button class="link-btn" onclick="openPolicy()">Политика конфиденциальности</button>
   </div>
 </footer>
@@ -572,9 +572,9 @@ footer{background:#141619;border-top:1px solid rgba(255,255,255,.06);padding:56p
     <button class="modal-close" onclick="closePolicy()">✕</button>
     <h3>Политика конфиденциальности</h3>
     <div class="policy-body">
-      <p style="margin:6px 0 12px">The Fade Room · действует с 01.01.2026</p>
+      <p style="margin:6px 0 12px">Урбан студио · действует с 01.01.2026</p>
       <h4>1. Общие положения</h4>
-      <p>Настоящая политика определяет порядок обработки персональных данных посетителей сайта барбершопа «The Fade Room» (далее — Оператор) в соответствии с Федеральным законом № 152-ФЗ «О персональных данных».</p>
+      <p>Настоящая политика определяет порядок обработки персональных данных посетителей сайта барбершопа «Урбан студио» (далее — Оператор) в соответствии с Федеральным законом № 152-ФЗ «О персональных данных».</p>
       <p>Используя сайт и оформляя онлайн-запись, вы даёте согласие на обработку персональных данных на условиях, описанных ниже.</p>
       <h4>2. Какие данные мы собираем</h4>
       <ul>
@@ -697,7 +697,7 @@ function confirmBooking(){
   const ds=dd.toLocaleDateString('ru-RU',{day:'numeric',month:'long'});
   $('bookingSummary').innerHTML=
     '<b>'+booking.svc+'</b> · мастер <b>'+booking.master+'</b><br>'+ds+', <b>'+booking.time+'</b><br>Ждём вас, '+name+'!';
-  const waText=encodeURIComponent('Запись в The Fade Room: '+booking.svc+', '+booking.master+', '+ds+' в '+booking.time+'. Код брони: '+code+'. Имя: '+name+', тел: '+phone);
+  const waText=encodeURIComponent('Запись в Урбан студио: '+booking.svc+', '+booking.master+', '+ds+' в '+booking.time+'. Код брони: '+code+'. Имя: '+name+', тел: '+phone);
   $('waLink').href='https://wa.me/?text='+waText;
   show('stepDone');
 }
